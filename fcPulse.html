@@ -1,0 +1,32 @@
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <script src="jquery-1.8.3.min.js"></script>
+  <script src="jsLibs.js"></script>
+  <script src="fcPulse.js"></script>
+  <script src="moment-min.js"></script>
+  <script src="fcPulseBG.js"></script>
+  <link href="css/fcPulse.css" rel="stylesheet">
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <title>FirstClass Pulse</title>
+</head>
+<body>
+<div id='pageContent'>
+  <div class="pTitle">The Pulse<i class="fa fa-cog fa-color" id="config"></i></div>
+  <div><i class="fa fa-caret-left fa-2x fa-color" id = "back"></i></div>
+  <div id = 'NewEntry'>
+    <textarea placeholder = "Enter a new status update" id = "newpulsepost"></textarea>
+  </div>
+  <div id = 'unread' class = "small_red"></div>
+  <div id = 'ResultsContainer'>
+  <div id = 'fcPulseCredentials'>
+    <div id = "status"></div>
+    <div><label>Frequency (Min): </label><input type="number" value = 5 min = 1 class = "LI_input" id="LI_interval" style = "width:50px;"></div>
+    <div><label>UserID: </label><input type="text" class = "LI_input" id="LI_name" size="25"/></div>
+    <div><label>Password: </label><input type="password" class = "LI_Input" id="LI_pw" size="25"/></div>
+    <div><button id = "Update">Update</button><button id = "clear">Clear/Forget</button></div>
+  </div>
+  <div id = 'ResponseBody'></div>
+  </div>
+</body>
+</html>

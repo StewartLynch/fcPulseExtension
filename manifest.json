@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "FirstClass Pulse",
+  "description": "Monitor and update FirstClass Pulse",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "iconBW.png",
+    "default_popup": "fcPulse.html"
+  },
+  "content_security_policy": "script-src 'self' https://fcws.firstclass.com; object-src 'self'",
+  "background": {
+  "scripts" : ["jquery-1.8.3.min.js", "jsLibs.js", "fcPulseBG.js"]
+  },
+  "permissions": [
+    "https://*/*", "http://*/*",
+    "storage",
+    "tabs"
+  ]
+}
