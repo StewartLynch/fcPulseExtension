@@ -20,18 +20,7 @@ img {
   text-align: center;
   font-weight: bold;
 }
-.unread_bubble {
-  position: absolute;
-  top: -4px;
-  left: 22px;
-  padding: 1px 2px 1px 2px;
-  background-color: red;
-  color: white;
-  font-weight: bold;
-  font-size: 1em;
-  border-radius: 30px;
-  box-shadow: 1px 1px 1px gray;
-}
+
 .fa-color {
   color: #0072ad;
 }
@@ -53,21 +42,6 @@ img {
   display:none;
 }
 
-.title {
-padding-left: 8px;
-position: absolute;
-padding-top: 6px;
-}
-.containerGroup {
-  margin-left: 5px;
-  padding-top:  5px;
-}
-
-.icon_Container {
-  position: relative;
-  padding-top: 5px;
-  width:221px;
-}
 #NewEntry {
   display:none;
 }
@@ -91,10 +65,6 @@ color: #666666;
   outline: none;
 }
 
-#UpdateStatus {
-  display: none;
-}
-
 textarea.pulse-reply-field {
 border: 1px solid #C6D5DB;
 border-radius: 6px 6px 6px 6px;
@@ -108,10 +78,6 @@ resize: none;
 width: 90%;
 }
 
-.hideIt {
-  display:none;
-}
-
 .LI_Input {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   font-size: 10pt;
@@ -121,26 +87,6 @@ width: 90%;
   padding-left: 5px; 
   resize:none}
 
-#LI_Entry div {
-    margin-bottom: 2px;
-  }
-
-a {
-  color:#0072ad;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #EBA020;
-}
-
-a:active {
-  color:#A9B7C5;
-}
-#FullDocs {
-  text-align: right;
-  font-size: 12px;
-}
 button{
   color: #FFF;
   background: #0072ad;
@@ -183,14 +129,6 @@ button:active {
   margin-bottom:5px
 }
 
-#GetPostData {
-	display:none;
-}
-
-#dataToSend {
-	max-width: 525px;
-  margin-top: 5px;
-}
 #pageContent {
   border-style: dashed;
   border-color: rgba(87,68,68,0.5);
@@ -222,31 +160,13 @@ button:active {
   margin-left: -1px;
 }
 
-  .pulseUnreadIcon {
-    left: 22px;
-    position: absolute;
-    top: 4px;
-    width: 20px;
-  }
-
   .fc-sidebar-listitem-pulse .profileMedSmallSmall {
     float: left;
     left: 5px;
     position: relative;
     top: 4px;
 }
-  .fc-sidebar-list.fc-sidebar-list-pulse {
-    overflow-x:hidden;
-    width: 97%;
-    margin-left: 2px;
-    height: auto;
-    overflow-y: auto;
-    height: 95%;
-  }
-  #fc-sidebar-pulse .fc-sidebar-bottom-content {
-    overflow-y: hidden;
-    width: 100%;
-  }
+
   .fc-sidebar-listitem.fc-sidebar-listitem-pulse {
     position:relative;
     padding: 3px 0 3px 3px;
@@ -312,10 +232,6 @@ button:active {
     vertical-align: baseline;
   }
 
-  .fc-unread .fc-item-author, .fc-draft .fc-item-author {
-    color: #0073AD;
-    font-weight: bold;
-  }
   .fc-item-author, .fc-mail-direction {
     color: #777;
     font-size: 0.95em;
