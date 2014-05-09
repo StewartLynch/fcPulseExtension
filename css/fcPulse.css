@@ -250,3 +250,31 @@ button:active {
     margin: 10px 0;
     clear: both;
   }
+  .profileInfo {
+    display:block;
+    margin-left:10px;
+    margin-top:10px;
+    font-size:1.1em;
+    width:auto;
+    line-height: 1.4em;
+  }
+  .profileInfo2 {
+    margin-left:5px;
+    margin-top:10px;
+    font-size:1.1em;
+    width:95%;
+  }
+  .fc-profile-label {
+    font-size: 0.95em;
+    color: #777;
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  .profilecompany {margin-bottom:10px;}
+  .formlayout {font-size:.75em;}
+  .formlayout .leftcol {text-align:right; width:10%;vertical-align:top;}
+  .formlayout td input {width:95%;}
+  .formlayout td textarea {width:95%;}
+  .formlayout label {white-space:nowrap;}
+  .fc-form-row .fields input[type=checkbox] {width:auto;}
